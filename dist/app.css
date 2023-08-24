@@ -1,8 +1,13 @@
+:root {
+    --background-satu : url('/pertama.png');
+    --background-dua : url('/kedua.png');
+}
+
 .bg-foo {
-    background: url('/pertama.png');
+    background: var(--background-satu);
     border: 3px solid #ff3;
 }
 
 .hover\:bg-bar:hover {
-    background: url('/kedua.png');
+    background: var(--background-dua);
 }

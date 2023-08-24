@@ -1,5 +1,6 @@
 .bg-foo {
     background-image: url("/src/img/image1.png");
+    border: 3px solid #ff3;
 }
 
 .hover\:bg-bar:hover {

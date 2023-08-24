@@ -1,6 +1,6 @@
 :root {
-    --background-satu : url('pertama.png');
-    --background-dua : url('kedua.png');
+    --background-satu : url('https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/pertama.png?raw=true');
+    --background-dua : url('https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/kedua.png?raw=true');
 }
 
 .bg-foo {

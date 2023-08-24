@@ -1,6 +1,5 @@
 .bg-foo {
     background: url("https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/pertama.png?raw=true");
-    border: 3px solid #ff3;
 }
 
 .hover\:bg-bar:hover {

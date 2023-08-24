@@ -1,8 +1,0 @@
-
-.bg-foo {
-    background: url("./src/img/image1.png");
-}
-
-.hover\:bg-bar:hover {
-    background: url("./src/img/image2.png");
-}

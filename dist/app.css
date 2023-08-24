@@ -1,6 +1,6 @@
 :root {
-    --background-satu : url('/dist/pertama.png');
-    --background-dua : url('/dist/kedua.png');
+    --background-satu : url('pertama.png');
+    --background-dua : url('kedua.png');
 }
 
 .bg-foo {

@@ -1,8 +1,8 @@
 .bg-foo {
-    background: url("/pertama.png");
+    background: url(/pertama.png);
     border: 3px solid #ff3;
 }
 
 .hover\:bg-bar:hover {
-    background: url("/kedua.png");
+    background: url(/kedua.png);
 }

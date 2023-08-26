@@ -1,7 +1,14 @@
-.bg-foo {
-    background: url("https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/pertama.png?raw=true");
+.card-image {
+    width: 176px;
+    height: 176px;
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
 }
 
-.hover\:bg-bar:hover {
-    background: url("https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/kedua.png?raw=true");
+.bg-foo {
+    background-image: url("https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/pertama.png?raw=true");
+}
+
+.card:hover .card-image {
+    background-image: url("https://github.com/izanmaizan/product-pricing-card-with-tailwindcss/blob/main/dist/kedua.png?raw=true");
 }
